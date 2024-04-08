@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<head>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script></script>
+</head>
+<body>
+  <div class="fr">
+    <div class="bu">
+      <button class="btn show">show</button>
+      <button class="btn hide">hide</button>
+      <button class="btn toggle">toggle</button>
+    </div>
+  <p class="f">
+    (서울=연합뉴스) 차지연 기자 = 중앙선거관리위원회는 22대 총선 
+    사전투표 첫날인 5일 오후 1시 현재 투표율이 8.00%로 집계됐다고 밝혔다.
+  </p>  
+</div>
+  <script>    
+  //초기에 숨김
+    $('.f').hide(); 
+
+  //p요소 보이기
+  $('.show').click(function(){
+    $('.f').show();
+  });
+
+  //p요소 숨기기
+  $('.hide').click(function(){
+    $('.f').hide();
+  })
+
+  $('.toggle').click(function(){
+    $('.f').toggle();
+  })
+   
+  </script>
+</body>
+
+</html>
